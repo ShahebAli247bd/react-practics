@@ -21,6 +21,8 @@
 
 // import UseReducerHookByAmount from "./component/useReducer/UseReducerHookByAmount";
 import Counter from "./component/projects/counter/Counter";
+import HiddenSearch from "./component/projects/hiddenSearch/HiddenSearch";
+import MealDB from "./component/projects/mealdb/MealDB";
 import Todos from "./component/projects/Todos/Todos";
 import ShowPost from "./component/ShowPost";
 // import UseRefExample from "./component/UseRefExample";
@@ -56,7 +58,9 @@ function App() {
 
           {/* Project Basic Start */}
           {/* <Counter /> {/* Project 1 Counter done with useReducer Hook  */}
-          <Todos />
+          {/* <Todos /> */}
+          {/* <HiddenSearch /> */}
+          <MealDB />
       </>
   );
 }
